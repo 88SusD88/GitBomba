@@ -15,6 +15,7 @@ namespace Git_Bomba
             x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Ответ: " + 5*Math.Cos(2*x));
             Console.ReadKey();
+
         }
     }
 }
