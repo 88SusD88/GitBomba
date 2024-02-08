@@ -10,6 +10,11 @@ namespace Git_Bomba
     {
         static void Main(string[] args)
         {
+            double x;
+            Console.Write("Введите x: ");
+            x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ответ: " + 5*Math.Cos(2*x));
+            Console.ReadKey();
         }
     }
 }
