@@ -15,7 +15,7 @@ namespace Git_Bomba
             x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Ответ: " + 5*Math.Cos(2*x));
             Console.ReadKey();
-            //Миленина нам немного подпортила проект, но в целом всё работает
+            //Нам немного подпортили проект, но в целом всё работает
         }
     }
 }
